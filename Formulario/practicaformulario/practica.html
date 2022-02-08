@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ut">
+        <title>Prcatica formularios</title>
+        <style>
+            body{
+                background-color:#DF9B8D;
+                color: whitesmoke;
+            }
+            label, p{
+                color:yellow; /*regla en casacada*/
+            }
+            label[for="edad"]{
+                color: aqua;
+
+            }
+
+            .demo-link:hover{ /*Cunando paso el mouse sobre el link*/
+                color:hotpink;
+                text-decoration: none;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <H1>Ingresa los siguiente datos</H1>
+
+        <a class="demo-link" href="#"> voy a ir a la misma página</a>
+        <br><br><br><br>
+
+        <form action="" method="get">
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre"> 
+            <br>
+
+            <label for="lname">Apellido: </label>
+            <input type="text" name="lname" id="lname"> 
+            <br>
+            
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> 
+            <br>
+
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad"> 
+            <br>
+
+            <p>Género</p> <!--regla de herencia-->
+            
+            <input type="radio" name="genero" id="mujer"> <label for="Mujer"> Mujer </label>
+            <br>
+           
+            <input type="radio" name="genero" id="hombre">  <label for="Hombre"> Hombre </label>
+            <br>
+
+            <label for="Ingresa otro"> Otro </label>     <!--input type="radio" name="genero" id="otro"--> 
+            <input type="textarea" name="ingresa_otro" id="ingresa_otro">
+            <br>
+            <br>
+
+            <label for="contraseña"> Contrasena </label>
+            <input type="password" name="contraseña" id="contraseña"> 
+            <br>
+            <br>
+
+            <label for="modulo">Módulo actual</label>
+            <select name="modulo" id="modulo">
+                <option value="dsw">Desarrollo de software</option>
+                <option value="ds">Data Science</option>
+                <option value="md">Marketing Digital</option>
+            </select>
+           
+            <br>
+            <br>
+            <label for="color"> Color favorito</label>
+            <input type="color" name="color" id="color"> 
+            <br>
+            <br>
+            
+            <input type="checkbox" name="terminos" id="terminos"> <label for="terminos"> Acepto términos y condiciones </label>
+            <br>
+
+            <input type="checkbox" name="ready" id="ready"> <label for="ready"> Ya le sé </label>
+            <br>
+            <br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

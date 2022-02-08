@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+
+        <form action="contacto.html" method="get">
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre"> 
+            <br>
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad"> 
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"> 
+            <br>
+            <label for="biografía">Biografia: </label>
+            <textarea name="biografia" id="biografia"></textarea>
+            <br>
+            <select name="cursos" id="cursos">
+                <option value="Master en coding"> Master en conding</option> <!--eso se le enviara al servidor es lo que esta en value-->
+                <option value="Data science"> Dtaa science</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+/*Header*/
+
+header img{
+    width: 360px;
+}
+
+#nav{
+    background-color: #ff91cd;
+    padding: 10px 10px 10px 200px;
+/*    text-align: center;*/
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+
+}
+/*Main*/
+h2{
+    font-family: sans-serif;
+    color: #41A4DD;
+    font-size: 1em;
+}
+
+article img{
+    width:250px;
+    height: 200px;
+    
+
+}
+/*
+.text-viaje img{
+
+  margin: 20px;
+}*/
+
+article button{
+    background-color:#41A4DD ;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    font-weight: bold;
+}
+aside a{
+    color:#41A4DD;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 8px;
+}
+
+footer > section{
+    background-color: #ff91cd;
+}
+
+footer>div{
+    background-color: #bb518b;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 0;
+}
+
+.blog{
+    margin:3% 25% 3% 15%;
+}
+/*
+
+.aboutUs{
+    color: white;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+
+.menuNav{
+    color: white;
+    float: right;
+ 
+    
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+
+}
+
+footer div{
+  clear: both;
+}*/

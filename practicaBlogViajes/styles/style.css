@@ -1,0 +1,99 @@
+*{
+  font-family: sans-serif ;
+}
+body {
+    margin: 0;
+}
+      /* Header */
+      header img {
+        width: 360px;
+        margin-left: 12%;
+      }
+      /* Nav */
+      nav {
+        background-color: #c72d82;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      /* Main */
+      h2 {
+        color: #41a4dd;
+      }
+      article img {
+        width: 240px;
+      }
+      article button {
+        font-weight: bolder;
+        background-color: #41a4dd;
+        color: white;
+        border:none;
+        padding: 5px 30px;
+        margin: 3px;
+      }
+      aside a {
+        color: #41a4dd;
+        text-decoration: none;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 8px;
+      }
+      /* Footer */
+      footer > section {
+        background-color: #c72d82;
+      }
+      footer > div {
+        background-color: #9c2467;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 16px 0;
+      }
+     #caja{
+        overflow: auto; /*Padre con hijo float*/
+      }
+
+      .blog{
+     /* margin:3% 1% 3% 1%; aqui se está sumando u excede el 100%*/
+        
+        width: 80%;
+        float: left;
+      }
+
+      .blog-post img{
+        float:left;
+      }
+      .blog-post{
+       overflow: auto;
+      }
+
+      .blog-post img{
+        width:170px;
+        height: 100px;
+        margin: 5px;
+      }
+      #otros-post{
+        width: 20%;
+        float: right;
+        
+      }
+      #aboutUs{
+        float: left;
+        width:50%;
+      }
+
+      #menuNav{
+        float: right;
+        width:50%;
+      }
+
+      #down{
+    /*    clear: both;*/
+      }
+
+    
