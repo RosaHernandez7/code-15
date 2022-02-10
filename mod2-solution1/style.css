@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+	 	
+
+}
+
+body{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+p{
+	border:3px solid black;
+	color:black;
+	background-color: #F2D7D5;
+	width: 100%;
+	height: 165px;
+	padding: 17px 12px 6px 12px;/*Space around an element  Top right boottom left */
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;  /* the nearest parent with position relative*/
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+h2{ 
+	color: #FF5733; 
+	font-family: 'Jomhuria', cursive;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+span{
+	border: 2px solid black;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*By default size in certain devices */
+
+.row{
+	width: 100%;
+
+}
+
+/*For change the properties of the span tags*/
+
+#uno{
+	background-color: #d49898;
+	color: black;
+	/*padding: 2px 37px 2px 38px;
+	margin-left: 69%;*/
+}
+
+#dos{
+	background-color: #c04643;
+	color: white;
+
+}
+#tres{
+	background-color: #e5d097;
+	color: black;
+}
+/*To set the position of the title of the p tags */
+#uno,#dos,#tres{
+	padding: 2px 37px 2px 38px;
+	position:absolute;
+	top: -1px;
+	right: -1px;
+	width: 150px;
+}
+
+/*For desktop devices*/
+@media (min-width: 992px){
+	.ln-md-3{ /*With this label u create a group of changes*/
+		float: left;
+		width: 33%;
+		padding: 10px;
+	}
+}
+
+/*For tablet devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	.ln-md-2{
+		float: left;
+		width: 50%;		
+		padding:  10px 10px 0px 10px; 
+	}
+	.ln-md-1{
+		float: left;
+		width: 100%;
+		padding: 0 10px 10px 10px;
+		display: inline-block;
+	}
+}
+
+/*For smartphones devices*/
+@media screen and (max-width: 767px)
+{  
+	.row{
+		padding: 30px;
+	}
+	h2{
+		margin-bottom: 0px;
+	}
+	#uno{
+		margin-top: 0px;
+	}
+}
+
+

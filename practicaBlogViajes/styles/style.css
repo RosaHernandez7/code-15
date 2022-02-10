@@ -8,17 +8,20 @@ body {
       header img {
         width: 360px;
         margin-left: 12%;
+        margin-bottom: 2%;
       }
       /* Nav */
       nav {
         background-color: #c72d82;
-        text-align: center;
+        text-align: left;
         padding-top: 16px;
         padding-bottom: 16px;
+        padding-left: 12.5%;
       }
       nav a {
         color: white;
         text-decoration: none;
+        padding: 1%;
       }
       /* Main */
       h2 {
@@ -60,8 +63,9 @@ body {
 
       .blog{
      /* margin:3% 1% 3% 1%; aqui se está sumando u excede el 100%*/
-        
-        width: 80%;
+        margin-left: 12.5%;
+        margin-bottom: 2%;
+        width: 50%;
         float: left;
       }
 
@@ -78,18 +82,32 @@ body {
         margin: 5px;
       }
       #otros-post{
-        width: 20%;
+        width: 30%;
         float: right;
         
       }
+      #footPage{
+        color: white;
+      }
       #aboutUs{
+        margin-left: 12.5%;
+        
         float: left;
-        width:50%;
+        width:20%;
       }
 
       #menuNav{
         float: right;
+        margin-right: 10%;
         width:50%;
+        text-align: right;
+      }
+      #menuNav a{
+        text-decoration: none;
+      }
+
+      #menuNav a:link{
+        color: white;
       }
 
       #down{

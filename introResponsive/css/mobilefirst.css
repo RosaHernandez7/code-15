@@ -1,0 +1,50 @@
+/*Mobile first */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.img{
+    display: block;
+    width: 100%;
+}
+
+/*Tablet*/
+@media screen and (min-width:401px){
+
+    body{
+         background-color: pink;
+    }
+    .img{
+        box-sizing: content-box;
+        display: inline;
+        width: 50%;
+    }
+   
+}
+/*aplican os estilos de la ultima resolucion*/
+
+@media screen and (min-width:701px){
+
+    body{
+        background-color: rosybrown;
+   }
+   .img{
+       width: 24%;
+
+   }
+}
+
+@media screen and (min-width:1001px){
+    body{
+        background-color: black;
+   }
+  
+}
+
+

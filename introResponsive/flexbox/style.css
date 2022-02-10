@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{ /*padre*/
+background-color: black;
+display: flex; /*se hace al contenedor flexible,  acomoda todo como una fila por default*/
+/*todos sus hijos toman una porcion del width*/
+/* cambia la orientacion del contenido 
+row por default 
+   row reverse
+   column
+   column-reverse
+flex-direction: row-reverse;*/
+/*nowrap (default) -> los acomoda en filas o en columna
+wrap-> cada elemmtno es delimitado por su contenido y se pasa a la siguiente linea, porque no caben 
+wrap-reverse -> empieza de la derecha a izq y de abjo hacia arriba */
+flex-wrap: nowrap;
+justify-content: flex-start;
+height: 300px;
+align-items: baseline;
+}
+
+.elemento{
+background-color: blueviolet;
+width: 100px;
+}
+
+.img{
+
+    width: 100px;
+}
